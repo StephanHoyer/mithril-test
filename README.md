@@ -28,7 +28,7 @@ module.exports = {
 }
 ```
 
-... you can test it's functionality like this:
+... you can test its functionality like this:
 
 ```js
 // myModule.test.js
