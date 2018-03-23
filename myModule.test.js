@@ -1,0 +1,20 @@
+const load = require('./')
+
+describe('myModule', () => {
+  it('should work', () => {
+    return load('./myModule')
+      .shouldHave('p')
+      .shouldHave(1, 'p')
+      .shouldNotHave(2, 'p')
+      .shouldNotHave('h3')
+      .shouldNotContain('fancy stuff')
+      .setValue('input', 'fancy stuff')
+      .shouldContain('fancy stuff')
+      .waitFor(100)
+      .click('button')
+      .shouldNotHave('p')
+      .waitFor('p')
+      .shouldHave('p')
+      .run()
+  })
+})
