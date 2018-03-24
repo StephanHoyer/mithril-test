@@ -1,6 +1,8 @@
 # mithril-test
 test your mithril modules in a real browser
 
+[![Build Status](https://travis-ci.org/StephanHoyer/mithril-test.svg?branch=master)](https://travis-ci.org/StephanHoyer/mithril-test)
+
 ## Example usage
 
 Let's say you have the following component:
