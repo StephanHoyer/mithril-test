@@ -4,7 +4,7 @@
   "description": "test your mithril modules in a real browser",
   "main": "index.js",
   "scripts": {
-    "test": "mocha myModule.test.js"
+    "test": "mocha myModule.test.js --timeout 10000"
   },
   "author": "Stephan Hoyer <ste.hoyer@gmail.com>",
   "license": "MIT",
